@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <!--
+        external-path表示用来指定共享路径的，类似的还有：
+        cache-path代表的根目录: getCacheDir()
+        files-path代表的根目录： Context.getFilesDir()
+        external-path代表的根目录: Environment.getExternalStorageDirectory()
+
+        name：就是你给这个访问路径起个名字
+        path：代表要共享的目录，即需要临时授权访问的路径（.代表所有路径）
+        示例：path=""表示将整个SD卡进行共享，path="pictures"就只共享SD卡下的pictures文件夹
+        -->
+        <external-path name="pictures" path="" />
+    </paths>
+</resources>
